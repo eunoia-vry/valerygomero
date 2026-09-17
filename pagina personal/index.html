@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Permite que la página se adapte a celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portafolio | Valery Gomero</title>
+
+    <!-- Conexión con CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+    <header class="header">
+
+        <div class="logo">
+            Valery
+        </div>
+
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#perfil">Perfil</a>
+            <a href="#formacion">Formación</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         PORTADA
+    ========================== -->
+    <section id="inicio" class="portada">
+
+        <div class="texto-portada">
+
+            <p class="saludo">
+                Hola, soy
+            </p>
+
+            <h1>
+                Valery Rocío<br>
+                Gomero Morales
+            </h1>
+
+            <h2>
+                Estudiante de Diseño y Desarrollo de Software
+            </h2>
+
+            <p class="descripcion">
+                Me interesa la tecnología y el desarrollo de soluciones
+                digitales. Actualmente estoy fortaleciendo mis conocimientos
+                en programación y desarrollo web.
+            </p>
+
+            <div class="botones">
+
+                <a href="#perfil" class="btn btn-principal">
+                    Conóceme
+                </a>
+
+                <a href="#contacto" class="btn btn-secundario">
+                    Contactarme
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOTO -->
+        <div class="foto-portada">
+
+            <div class="decoracion"></div>
+
+            <img src="foto.jpg" alt="Foto de Valery Gomero">
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PERFIL
+    ========================== -->
+    <section id="perfil" class="seccion perfil">
+
+        <div class="titulo-seccion">
+            <span>01</span>
+            <h2>Sobre mí</h2>
+        </div>
+
+        <p>
+            Soy estudiante de Diseño y Desarrollo de Software en Certus.
+            Me gusta aprender nuevas herramientas tecnológicas y desarrollar
+            soluciones creativas mediante la programación y el desarrollo web.
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         FORMACIÓN Y HABILIDADES
+    ========================== -->
+    <section class="contenedor-dos">
+
+        <!-- FORMACIÓN -->
+        <div id="formacion" class="tarjeta">
+
+            <div class="numero">
+                02
+            </div>
+
+            <h2>
+                Formación académica
+            </h2>
+<h3>
+                Nuestra Señora de la Misericordia
+            </h3>
+
+    
+            <p class="detalle">
+                formacion escolar
+            </p>
+
+            <h3>
+                Certus
+            </h3>
+
+            <p>
+                Diseño y Desarrollo de Software
+            </p>
+
+            <p class="detalle">
+                Estudiante actualmente
+            </p>
+
+        </div>
+
+
+        <!-- HABILIDADES -->
+        <div id="habilidades" class="tarjeta">
+
+            <div class="numero">
+                03
+            </div>
+
+            <h2>
+                Habilidades
+            </h2>
+
+            <ul class="lista-habilidades">
+
+                <li>
+                    HTML
+                </li>
+
+                <li>
+                    CSS
+                </li>
+
+                <li>
+                    Trabajo en equipo
+                </li>
+
+                <li>
+                    Aprendizaje continuo
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         EXPERIENCIA / PROYECTOS
+    ========================== -->
+    <section id="experiencia" class="seccion">
+
+        <div class="titulo-seccion">
+            <span>04</span>
+            <h2>Experiencia y proyectos</h2>
+        </div>
+
+
+        <div class="proyectos">
+
+            <article class="proyecto">
+
+                <h3>
+                    Proyecto de página web personal
+                </h3>
+
+                <p>
+                    Desarrollo de una página web utilizando HTML y CSS,
+                    aplicando estructura semántica, formularios y diseño
+                    adaptable a diferentes dispositivos.
+                </p>
+
+            </article>
+
+
+            <article class="proyecto">
+
+                <h3>
+                    Proyectos académicos
+                </h3>
+
+                <p>
+                    Elaboración de ejercicios y proyectos relacionados con
+                    desarrollo web y fundamentos de programación durante mi
+                    formación académica.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACTO
+    ========================== -->
+    <section id="contacto" class="contacto">
+
+        <div class="informacion-contacto">
+
+            <div class="titulo-seccion">
+                <span>05</span>
+                <h2>Contacto</h2>
+            </div>
+
+            <p>
+                ¿Tienes alguna consulta o deseas comunicarte conmigo?
+                Puedes completar el formulario.
+            </p>
+
+            <div class="datos-contacto">
+
+                <p>
+                    <strong>Correo:</strong><br>
+                    gmvalery73@gmail.com
+                </p>
+
+                <p>
+                    <strong>Teléfono:</strong><br>
+                    931034990
+                </p>
+
+            </div>
+
+            <!-- GITHUB -->
+            <a
+                href="https://github.com/eunoia-vry/valerygomero.git"
+                target="_blank"
+                class="github"
+            >
+                Ver mi repositorio de GitHub →
+            </a>
+
+        </div>
+
+
+        <!-- FORMULARIO -->
+        <form class="formulario">
+
+            <div class="fila">
+
+                <div class="campo">
+
+                    <label for="nombres">
+                        Nombres
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombres"
+                        name="nombres"
+                        placeholder="Ingresa tus nombres"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="campo">
+
+                    <label for="apellidos">
+                        Apellidos
+                    </label>
+
+                    <input
+                        type="text"
+                        id="apellidos"
+                        name="apellidos"
+                        placeholder="Ingresa tus apellidos"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="fila">
+
+                <div class="campo">
+
+                    <label for="correo">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="ejemplo@gmail.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="campo">
+
+                    <label for="telefono">
+                        Teléfono
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        placeholder="Ingresa tu teléfono"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- LISTA DESPLEGABLE -->
+            <div class="campo">
+
+                <label for="motivo">
+                    Motivo de contacto
+                </label>
+
+                <select id="motivo" name="motivo">
+
+                    <option value="">
+                        Selecciona una opción
+                    </option>
+
+                    <option value="consulta">
+                        Consulta
+                    </option>
+
+                    <option value="proyecto">
+                        Proyecto
+                    </option>
+
+                    <option value="trabajo">
+                        Oportunidad laboral
+                    </option>
+
+                    <option value="otro">
+                        Otro
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- COMENTARIOS -->
+            <div class="campo">
+
+                <label for="comentarios">
+                    Comentarios
+                </label>
+
+                <textarea
+                    id="comentarios"
+                    name="comentarios"
+                    rows="5"
+                    placeholder="Escribe tu mensaje..."
+                ></textarea>
+
+            </div>
+
+
+            <button type="submit">
+                Enviar mensaje
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+             2026 Valery Rocío Gomero Morales
+        </p>
+
+        <a
+            href="https://github.com/eunoia-vry/valerygomero.git"
+            target="_blank"
+        >
+            GitHub
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
