@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let montoTotal= Number(prompt("Ingrese el monto total de la cuenta: "));
+        let cantidadPersonas= Number(prompt("Ingrese la cantidad de personas"));
+        let pagoPorPersona=montoTotal/cantidadPersonas;
+
+        document.write("Consumo total: "+"<S/.>"+montoTotal+"<br>");
+        document.write("Cantidad de personas: "+cantidadPersonas+"<br>");
+        document.write("Cada persona debe pagar: "+"S/."+pagoPorPersona);
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 01</title>
+</head>
+
+<body>
+    <script>
+        let dias = Number(prompt("Ingrese la cantidad de días del viaje: "));
+        let alimentacion = Number(prompt("Ingrese el gasto diario en alimentación: "));
+        let transporte = Number(prompt("Ingrese el gasto diario en transporte: "));
+        let alojamiento = Number(prompt("Ingrese el gasto diario en alojamiento: "));
+
+        let totalAlimentacion = dias * alimentacion;
+        let totalTransporte = dias * transporte;
+        let totalAlojamiento = dias * alojamiento;
+
+        let presupuestoTotal = totalAlimentacion + totalTransporte + totalAlojamiento;
+
+        document.write("Gasto total en alimentación: S/ " + totalAlimentacion + "<br>");
+        document.write("Gasto total en transporte: S/ " + totalTransporte + "<br>");
+        document.write("Gasto total en alojamiento: S/ " + totalAlojamiento + "<br>");
+        document.write("Presupuesto total del viaje: S/ " + presupuestoTotal);
+    </script>
+</body>
+
+</html>

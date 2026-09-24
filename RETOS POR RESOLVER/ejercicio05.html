@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let precioProducto=Number(prompt("Ingrese precio del producto: "));
+        let porcentajeProducto=Number(prompt("Ingrese el porcentaje de descuento: "));
+        let descuento=precioProducto*(porcentajeProducto/100);
+        let precioFinal=precioProducto-descuento
+
+        document.write("Precio del producto: "+"s/."+ precioProducto+"<br>");
+        document.write("Descuento: "+"s/."+descuento+"<br>");
+        document.write("Precio Final: "+"s/."+precioFinal);
+    </script>
+</body>
+</html>
