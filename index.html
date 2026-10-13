@@ -1,12 +1,72 @@
-<html>
-   <head>
-      <title>Mi Primera Web</title>
-   </head>
-   <body>
-     <center>
-         <h1>Mi Primer Proyecto</h1>
-         <h2>VALERY GOMERO MORALES</h2> 
-         <p>Bienvenidos a mi super pagina</p>  
-     </center>
-  </body>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - Estudiante</title>
+    <link rel="stylesheet" href="css/matrix.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <h1>🎓 Mi Perfil</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contenedor" id="inicio">
+
+        <section class="perfil">
+            <img
+                src="fotodelestudiante.jpeg"
+                alt="Mi foto de perfil"
+                class="foto"
+            >
+
+            <h2>Valery Gomero Morales</h2>
+            <p class="carrera">Estudiante de Desarrollo de Software</p>
+
+            <div class="datos" id="contacto">
+                <p><strong>Instituto:</strong> Certus</p>
+                <p><strong>Ciclo:</strong> 1.º ciclo</p>
+                <p><strong>Ciudad:</strong> Lima, Perú</p>
+                <p><strong>Correo:</strong> gmvalery73@gmail.com</p>
+            </div>
+
+            <button id="btnMensaje">Contáctame</button>
+        </section>
+
+        <section class="informacion" id="sobre-mi">
+            <h2>Sobre mí</h2>
+
+            <p>
+                Soy estudiante de Desarrollo de Software y me interesa
+                aprender sobre el mundo de la tecnología y programacion.
+                Me gusta trabajar en equipo y asumir nuevos retos.
+            </p>
+
+            <h2>Mis intereses</h2>
+            <ul>
+                <li>💻 Tecnología</li>
+                <li>⚽ Deportes</li>
+                <li>📚 Aprendizaje continuo</li>
+            </ul>
+
+            <blockquote>
+                "Cada día es una oportunidad para aprender algo nuevo".
+            </blockquote>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Mi Perfil Estudiantil</p>
+    </footer>
+
+    <script src="js/funcionalidad.js"></script>
+</body>
 </html>
